@@ -1,0 +1,19 @@
+{
+  "name": "layout-4",
+  "version": "1.0.0",
+  "description": "layout training 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npx sass src/styles/scss/main.scss src/styles/main.css"
+  },
+  "author": "Sergey Tikhonov",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.53.0"
+  }
+}

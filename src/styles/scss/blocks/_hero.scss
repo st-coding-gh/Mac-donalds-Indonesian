@@ -1,0 +1,15 @@
+.hero {
+  padding-top: 171px;
+  padding-bottom: 203px;
+  background: url(../images/hero_bg-customers.png) no-repeat 95% 40px,
+              url(../images/hero_bg-rect.png) no-repeat right,
+              linear-gradient(123.49deg, rgba(255, 255, 255, 0.62) 0.57%, #FFA500 104.89%);
+}
+
+.hero__padding_left {
+  padding-right: 600px;
+}
+
+.hero__heading {
+  margin-bottom: 13px;
+}

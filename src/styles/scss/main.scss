@@ -1,0 +1,22 @@
+// normalizers
+@use '../../../node_modules/normalize.css/normalize.css';
+@use './normalize/normalize-custom';
+
+// fonts
+@use './fonts/fonts.scss';
+
+// components
+@use './blocks/components/button';
+@use './blocks/components/wrapper';
+@use './blocks/components/grid';
+
+//sections
+
+@use './blocks/header';
+@use './blocks/hero';
+@use './blocks/menu';
+@use './blocks/promo';
+@use './blocks/app';
+@use './blocks/about';
+@use './blocks/contacts';
+@use './blocks/footer';

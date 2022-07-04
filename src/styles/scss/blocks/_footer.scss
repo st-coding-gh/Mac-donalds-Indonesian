@@ -1,0 +1,52 @@
+.footer {
+  background: url(../images/footer_bg.png) no-repeat right bottom,
+              #202329;
+  padding-top: 50px;
+}
+
+.footer__bottom {
+  grid-row: 2;
+  grid-column: span 12;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__item {
+  grid-column: span 2;
+  margin-bottom: 90px;
+}
+
+.footer__form {
+  grid-column: span 3;
+  position: relative;
+}
+
+.footer__bottom-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__item-heading {
+  margin-bottom:  24px;
+}
+
+.footer__item-ul li {
+  margin-bottom: 12px;
+}
+
+.footer__form label {
+  display: block;
+  margin-bottom:  24px;
+}
+
+.footer__form input {
+  background: #ffffff33;
+  width: 272px;
+  height: 40px;
+}
+
+.footer__form-button {
+  position: absolute;
+  right: 15px;
+  top: 66px;
+}

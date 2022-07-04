@@ -1,0 +1,28 @@
+.about {
+  padding-top: 160px;
+  padding-bottom: 309px;
+  background: url(../images/about-bg.png) no-repeat bottom;
+  background-size: contain;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__staff {
+  position: absolute;
+  left: 5%;
+  bottom: -5px;
+  max-width: 48%;
+}
+
+.about__heading, .about__text, .about__button-wrapper {
+  grid-column: 7 / span 6;
+}
+
+.about__button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about__heading, .about__text {
+  margin-bottom: 16px;
+}

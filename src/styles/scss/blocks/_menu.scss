@@ -1,0 +1,32 @@
+.menu {
+  position: relative;
+  padding-top: 33px;
+  background: #FFBC0C;
+}
+
+.menu__heading {
+  position: absolute;
+  top: -20px;
+  display: flex;
+  justify-content: center;
+  gap: 33px;
+}
+
+.menu__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-item {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item__caption {
+  text-align: center;
+  padding-top: 6px;
+}

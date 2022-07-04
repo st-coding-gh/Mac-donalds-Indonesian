@@ -1,0 +1,17 @@
+.promo {
+  padding-bottom: 125px;
+  background: url('../images/promo_ellips_bg.png') no-repeat right 21px,
+              url('../images/promo_bg-image.png') no-repeat,
+              linear-gradient(242.99deg, #F8E7DD -3.29%, #FFFAF0 118.42%);
+}
+
+.promo__header {
+  grid-column: span 12;
+  display: flex;
+  justify-content: center;
+  margin-bottom:  51px;
+}
+
+.promo__item {
+  grid-column: span 4;
+}

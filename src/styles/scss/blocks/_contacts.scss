@@ -1,0 +1,30 @@
+.contacts {
+  background: #F02228;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contacts__logo {
+  position: absolute;
+  top: -50px;
+  left: 25px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacts__padding_left {
+  padding-left: 200px;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}

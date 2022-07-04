@@ -1,0 +1,30 @@
+.app {
+  position: relative;
+  padding-top: 51px;
+  padding-bottom: 68px;
+  background: linear-gradient(180deg, #FFBC0C 0%, #FF9C00 100%);
+}
+
+.app__wrapper{
+  position: relative;
+}
+
+.app__photo {
+  position: absolute;
+  top: -114px;
+  left: -132px;
+}
+
+.app__header {
+  grid-column: 6 / span 7;
+  margin-bottom: 34px;
+  padding-right: 60px;
+}
+
+.app__button-group {
+  grid-column: 6 / span 7;
+  width: 310px;
+  display: flex; 
+  justify-content: space-between;
+}
+
